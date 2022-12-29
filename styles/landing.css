@@ -1,0 +1,53 @@
+.landing-header {
+    background: rgb(125,2,126);
+    background: linear-gradient(90deg, rgba(125,2,126,1) 0%, rgba(64,8,98,1) 100%, rgba(167,2,146,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.landing-jumbotron{
+    height:600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: none;
+}
+
+.landing-jumbotron img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 20%;
+    width: auto;
+}
+
+@media screen and (max-width: 1260px) {
+    
+    .landing-jumbotron{
+        /* height:600px; */
+        width: 100%;
+        background: none;
+    }
+    
+    .landing-jumbotron img{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 856px) {
+    .landing-jumbotron img{
+        display: none;
+    }
+    
+}
+
+.jumbo-btn{
+    width:200px;
+    height:50px;
+    margin-top: 20px;
+    background-color: #a70292;
+    color : #fff;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+
